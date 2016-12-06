@@ -1,0 +1,236 @@
+body, html {height: 100%;}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #DAEBF7 url(../../img/linear_g-n4PdTS.gif) left top repeat-x;
+	font-family: Arial;
+}
+
+div.outer
+{
+	height: 100%;
+	overflow: visible;
+}
+
+div.content
+{
+	top: 40%;
+	position: relative;
+}
+
+div.error_box
+{
+	top: -80px;
+	position: relative;
+	/*width: 510px;*/
+	margin: auto;
+	text-align: center;
+}
+
+div.error_box img
+{
+	height: 82px;
+	width: 121px;
+	border: 0;
+}
+
+div.error_box div.message
+{
+	margin: 50px auto 0 auto;
+	padding-top: 10px;
+	font-size: 12px;
+	color: #489BD9;
+	width: 510px;
+	height: 122px;
+	background-color: #fff;
+	line-height: 20px;
+	text-align: center;
+}
+
+div.error_box div.message a
+{
+	text-decoration: none;
+	color: #489BD9;
+	background: url(../../img/blue3_1px-2sJVOh.gif) left bottom repeat-x; 
+}
+
+.center
+{
+	width: 390px;
+	margin: auto;
+	color: #666;
+	font-size: 13px;	
+	line-height: 18px;
+}
+
+.center a
+{
+	color: #1a74ba;
+	text-decoration: none;
+}
+
+.center a:hover
+{
+	text-decoration: underline;
+}
+
+ul { margin: 0; }
+
+.oauth2_error { margin-left: -13px; }
+
+ul li { list-style: none; }
+
+.logo
+{
+	cursor: pointer;
+	display: block;
+	margin: 30px auto 0 auto;
+	width: 83px;
+}
+
+.logo img
+{
+	width: 83px;
+	height: 46px;
+	border: none;
+}
+
+.error_message
+{
+	margin-top: 50px;
+	padding: 0 0 30px 115px;
+}
+
+.error_message_not_found
+{
+	background: url(../../img/not_found_broken_link-YD44mD.png) left top no-repeat;
+}
+
+.error_message_sharing_disabled
+{
+	background: url(../../img/not_found_sharing_disabled-DsfE4p.png) left top no-repeat;
+}
+
+.error_message_password
+{
+	background: url(../../img/not_found_incorect_password-JFQNCK.png) left top no-repeat;
+}
+
+.error_message_bandwidth
+{
+	background: url(../../img/not_found_bandwidth-8QRL5L.png) left top no-repeat;
+}
+
+.error_message_webdoc
+{
+	background: url(../../img/icon_webdoc-iENAyq.gif) left top no-repeat;
+}
+
+.error_message_no_direct_links
+{
+	background: url(../../img/not_found_no_direct_links-kYFLGD.png) left top no-repeat;
+	word-wrap: break-word;
+}
+
+.error_message_not_available
+{
+	background: url(../../img/not_found_try_again-So5RXm.png) left top no-repeat;
+}
+
+.error_message_transfer
+{
+	background: url(../../img/not_found_transfer-Rpb4Mz.png) 10px top no-repeat;
+}
+
+.error_oauth_server_exception
+{
+	background: url(../../img/not_found_oauth_server_exception-fmhjkE.png) left top no-repeat;
+}
+
+.error_message h2
+{
+	color: #333;
+	font-size: 20px;
+	margin: 3px 0 10px 0;
+	padding: 0;	
+	line-height: 26px;
+}
+
+.error_message_bandwidth h2
+{
+	padding-top: 5px !important;
+}
+
+.line
+{
+	height: 2px;
+	line-height: 2px;
+	background: url(../../img/not_found_line-zE3qXU.png) -20px top no-repeat;
+}
+
+.line_top
+{
+	background: url(../../img/not_found_line_top-1rUc8p.png) -15px top no-repeat;
+}
+
+.head_link
+{
+	font-weight: bold;
+}
+
+.block
+{
+	cursor: pointer;
+	padding: 18px 0 18px 100px;
+	margin: 0;
+}
+
+.block_hover
+{
+	background-color: #e1eff7 !important;
+}
+
+.block_share
+{
+	background: url(../../img/not_found_icons--Rf8sz.png) 30px 15px no-repeat;
+}
+
+.block_learn
+{
+	background: url(../../img/not_found_icons--Rf8sz.png) 33px -116px no-repeat;
+}
+
+.block_help
+{
+	background: url(../../img/not_found_icons--Rf8sz.png) 28px -243px no-repeat;
+}
+
+.block_apps
+{
+	background: url(../../img/not_found_icons--Rf8sz.png) 30px -366px no-repeat;
+}
+
+.oauth2_error_label { cursor: pointer; }
+
+.arrow {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-left: 5px solid #b2b2b2;
+	border-bottom: 4px solid transparent;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 5px solid #b2b2b2;
+}
