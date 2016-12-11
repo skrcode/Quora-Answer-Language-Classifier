@@ -44,10 +44,10 @@ def initialize_kmeans(model):
 	# Create a Word / Index dictionary, mapping each vocabulary word to
 	# a cluster number                                                                                            
 	word_centroid_map = dict(zip( model.index2word, idx ))
-	#with open('variables/word_centroid_map', 'wb') as f:
-	#	cPickle.dump(word_centroid_map, f)
-	#with open('variables/num_clusters', 'wb') as f:
-	#	cPickle.dump(num_clusters, f)
+	with open('../variables/word_centroid_map', 'wb') as f:
+		cPickle.dump(word_centroid_map, f)
+	with open('../variables/num_clusters', 'wb') as f:
+		cPickle.dump(num_clusters, f)
 	return word_centroid_map,num_clusters
 
 def printclusters(word_centroid_map,n):
@@ -116,6 +116,8 @@ def get_bag_of_centroids_test(word_centroid_map,num_clusters,review):
 
 def do(model,X_train,X_test):
 	word_centroid_map,num_clusters = initialize_kmeans(model)
+	#cPickle.dump(word_centroid_map, open('variables/word_centroid_map', 'wb'))
+	#cPickle.dump(num_clusters, open('variables/num_clusters', 'wb'))
 	#printclusters(word_centroid_map,100)
 	train_centroids,test_centroids = get_bag_of_centroids(word_centroid_map,num_clusters,X_train,X_test)
 	return train_centroids,test_centroids

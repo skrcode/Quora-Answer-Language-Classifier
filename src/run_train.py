@@ -7,7 +7,7 @@ import train
 import write_result
 
 # Read Train and Test Files
-X_train,X_test = data_read.do("data/test_data.csv")
+X_train,X_test = data_read.do()
 # Get Word2Vec format sentences from data
 train_sentences,test_sentences = get_sentences.do(X_train['review'],X_test['review'])
 # Train Word2Vec model
