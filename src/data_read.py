@@ -60,4 +60,5 @@ def do():
 	# Read data from test
 	file = '../data/test_data/test.csv'
 	X_test = pd.read_csv( file, header=0,delimiter="," )
+	X_train = X_train.sample(frac=1).reset_index(drop=True)
 	return X_train,X_test
